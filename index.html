@@ -1,157 +1,67 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Famvera</title>
-    <meta name="description" content="Famvera adalah bimbingan belajar terpercaya untuk persiapan UTBK dan masuk universitas impian Anda.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>UpStudy - Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <a href="#" class="logo">Famvera</a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="about.html">Tentang Kami</a></li>
-                    <li><a href="#programs">Program</a></li>
-                    <li><a href="#testimonials">Testimoni</a></li>
-                    <li><a href="#contact" class="btn btn-primary">Daftar Sekarang</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <div class="top-bar">
+        Your learning journey begins here - now with an exclusive discount! <span>Hurry, offer ends soon!</span>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">UP<span>STUDY</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-user"></i> Login</a>
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span>0</span></a>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Raih PTN Impian Bersama <span class="text-primary">Famvera</span></h1>
-                    <p class="hero-subtitle">Bimbingan belajar spesialis UTBK dengan metode belajar efektif dan mentor berpengalaman.</p>
-                    <div class="hero-buttons">
-                        <a href="#programs" class="btn btn-primary">Lihat Program</a>
-                        <a href="about.html" class="btn btn-outline">Pelajari Lebih Lanjut</a>
-                    </div>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="badge">🎓 Learn From 20,000+ Quality Courses</p>
+            <h1>Best to Platform <br> <span>Empower Skills</span></h1>
+            <button class="btn-primary">Start Learning Now</button>
+            <p class="subtext">Start Your Education Journey, For a Better Future</p>
+        </div>
+        <div class="hero-image">
+            <img src="student-hero.png" alt="Student Reading">
+            <div class="stats-card">
+                <div class="avatars">
+                    <img src="user1.jpg" alt="">
+                    <img src="user2.jpg" alt="">
+                    <span class="more-count">2K+</span>
                 </div>
-                <div class="hero-image">
-                    <!-- Placeholder for hero image if needed, or keeping it clean -->
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="section bg-light">
-            <div class="container">
-                <h2 class="section-title text-center">Mengapa Memilih Famvera?</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">📚</div>
-                        <h3 class="feature-title">Materi Terupdate</h3>
-                        <p>Kurikulum disesuaikan dengan standar UTBK-SNBT terbaru.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">👨‍🏫</div>
-                        <h3 class="feature-title">Mentor Terbaik</h3>
-                        <p>Diajar oleh lulusan PTN ternama yang berpengalaman.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📈</div>
-                        <h3 class="feature-title">Tryout Berkala</h3>
-                        <p>Evaluasi kemampuanmu dengan simulasi ujian rutin.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">💬</div>
-                        <h3 class="feature-title">Konsultasi Jurusan</h3>
-                        <p>Bimbingan pemilihan jurusan sesuai minat dan bakat.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="programs" class="section">
-            <div class="container">
-                <h2 class="section-title text-center">Program Belajar</h2>
-                <div class="programs-grid">
-                    <div class="program-card">
-                        <div class="program-header">
-                            <h3 class="program-title">Reguler</h3>
-                            <p class="program-price">Intensif UTBK</p>
-                        </div>
-                        <ul class="program-features">
-                            <li>2x Pertemuan/Minggu</li>
-                            <li>Akses Bank Soal</li>
-                            <li>1x Tryout/Bulan</li>
-                            <li>Konsultasi Grup</li>
-                        </ul>
-                        <a href="#contact" class="btn btn-primary btn-full">Pilih Paket</a>
-                    </div>
-                    <div class="program-card highlight">
-                        <div class="program-header">
-                            <h3 class="program-title">Intensif</h3>
-                            <p class="program-price">Super Camp</p>
-                        </div>
-                        <ul class="program-features">
-                            <li>4x Pertemuan/Minggu</li>
-                            <li>Akses Lengkap Materi</li>
-                            <li>Tryout Mingguan</li>
-                            <li>Konsultasi Privat</li>
-                        </ul>
-                        <a href="#contact" class="btn btn-primary btn-full">Pilih Paket</a>
-                    </div>
-                    <div class="program-card">
-                        <div class="program-header">
-                            <h3 class="program-title">Weekend</h3>
-                            <p class="program-price">Kelas Khusus</p>
-                        </div>
-                        <ul class="program-features">
-                            <li>Sabtu & Minggu</li>
-                            <li>Fokus Drilling Soal</li>
-                            <li>Bedah Tuntas UTBK</li>
-                            <li>Rekaman Kelas</li>
-                        </ul>
-                        <a href="#contact" class="btn btn-primary btn-full">Pilih Paket</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contact" class="section bg-primary text-white">
-            <div class="container text-center">
-                <h2 class="section-title text-white">Siap Masuk PTN Impian?</h2>
-                <p class="mb-2">Bergabunglah dengan ribuan siswa yang telah sukses bersama Famvera.</p>
-                <a href="#" class="btn btn-white btn-lg">Hubungi Kami via WhatsApp</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <div class="logo">Famvera</div>
-                <p>Partner suksesmu menembus PTN impian.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Program</h4>
-                <ul>
-                    <li><a href="#">Reguler</a></li>
-                    <li><a href="#">Intensif</a></li>
-                    <li><a href="#">Weekend</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Kontak</h4>
-                <ul>
-                    <li>Makassar</li>
-                    <li>info@famvera.com</li>
-                    <li>+62 812 3456 7890</li>
-                </ul>
+                <h3>100K+</h3>
+                <p>Total Enrolled Students</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Famvera. All rights reserved.</p>
-        </div>
-    </footer>
+    </section>
+
+    <section class="categories">
+        <h2 class="section-title">Top Categories</h2>
+        <div class="category-grid">
+            <div class="cat-item"><i class="fas fa-hourglass-half"></i> Mathematics</div>
+            <div class="cat-item"><i class="fas fa-lightbulb"></i> Idea Generate</div>
+            <div class="cat-item"><i class="fas fa-flask"></i> Chemistry</div>
+            <div class="cat-item"><i class="fas fa-chart-line"></i> Business Analysis</div>
+            </div>
+    </section>
+
 </body>
 </html>
